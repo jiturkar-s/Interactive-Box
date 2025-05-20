@@ -16,15 +16,6 @@ body {
    flex-direction: column;
 }
 
-/* body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    flex-direction: column;
-} */
 
 .card {
     background-color: #fff9fa;
@@ -59,13 +50,11 @@ label {
 .left-stack {
     display: flex;
     flex: 1;
-    /* align-items: flex-start; */
     gap: 12px;
     margin-bottom: 10px;
 }
 
 .bottom-section {
-  /* margin-top: 5px; */
   display: none;
   padding: 10px 0;
 }
@@ -108,10 +97,6 @@ label {
 }
 
 .dropdown-section {
-    /* display: grid;
-    grid-template-columns: 0.5fr 1fr; */
-    /* gap: 10px; */
-    /* margin-top: 8px; */
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
@@ -171,9 +156,6 @@ select {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    /* background-color: #fff; */
-    /* border: 1px solid#ddd;
-    border-radius: 8px; */
     color: #ff6b82;
     font-size: 16px;
     font-weight: bold;
@@ -184,7 +166,6 @@ select {
 .full-width-button{
     display: block;
     width: 97%;
-    /* max-width: 500px; */
     padding: 14px;
     margin-top: 12px;
     background-color: #ff6b82;
