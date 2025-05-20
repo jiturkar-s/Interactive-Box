@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive Boxes">
+    <title>Interactive Box-Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 1st Card -->
+    <div class="card">
+        <div class="top-section">
+            <!-- Left Stack -->
+            <div class="left-stack">
+                <div class="content">
+                    <div class="title">
+                        <input type="radio" name="plan" id="standard" />
+                        <label for="standard">1 Unit</label>
+                        <div class="chip">10% Off</div>
+
+                    </div>
+                    <div class="subtitle">Standard Price</div>
+
+                </div>
+
+
+
+            </div>
+            <!-- Right Stack -->
+            <div class="right-stack">
+                <div class="price">$10.00 USD</div>
+                <div class="strike-price">$24.00 USD</div>
+            </div>
+        </div>
+        <div class="bottom-section" id="bottom-1">
+            <!-- dropdown Section -->
+            <div class="dropdown-section">
+                <div class="dropdown-column">
+                    <h4>Size</h4>
+                    <div id="dropdown-size-1"></div>
+                </div>
+                <div class="dropdown-column">
+                    <h4>Color</h4>
+                    <div id="dropdown-color-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Card -->
+    <div class="card">
+        <div class="top-section">
+            <!-- Left Stack -->
+            <div class="left-stack">
+                <div class="content">
+                    <div class="title">
+                        <input type="radio" name="plan" id="mostpopular" />
+                        <label for="standard">2 Unit</label>
+                        <div class="chip">20% Off</div>
+
+                    </div>
+                    <!-- <div class="subtitle">Standard Price</div> -->
+
+                </div>
+
+
+
+            </div>
+            <!-- Right Stack -->
+            <div class="right-stack">
+                <div class="price">$18.00 USD</div>
+                <div class="strike-price">$24.00 USD</div>
+            </div>
+        </div>
+        <div class="bottom-section" id="bottom-2">
+            <!-- dropdown Section -->
+            <div class="dropdown-section">
+                <div class="dropdown-column">
+                    <h4>Size</h4>
+                    <div id="dropdown-size-2"></div>
+                </div>
+                <div class="dropdown-column-">
+                    <h4>Color</h4>
+                    <div id="dropdown-color-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3rd Card -->
+    <div class="card">
+        <div class="top-section">
+            <!-- Left Stack -->
+            <div class="left-stack">
+                <div class="content">
+                    <div class="title">
+                        <input type="radio" name="plan" id="plan3" />
+                        <label for="standard">3 Unit</label>
+                        <div class="chip">30% Off</div>
+
+                    </div>
+                    <!-- <div class="subtitle">Standard Price</div> -->
+
+                </div>
+
+
+
+            </div>
+            <!-- Right Stack -->
+            <div class="right-stack">
+                <div class="price">$24.00 USD</div>
+                <div class="strike-price">$24.00 USD</div>
+            </div>
+        </div>
+        <div class="bottom-section" id="bottom-3">
+            <!-- dropdown Section -->
+            <div class="dropdown-section">
+                <div class="dropdown-column">
+                    <h4>Size</h4>
+                    <div id="dropdown-size-3"></div>
+                </div>
+                <div class="dropdown-column">
+                    <h4>Color</h4>
+                    <div id="dropdown-color-3"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- total section -->
+    <div class="summary">
+        <div class="summary-left">Free Delivery</div>
+        <div class="summary-right-amount">Total: <span id="totalAmount">$0.00 USD</span>
+        </div>
+    </div>
+
+
+    <button  class="full-width-button">+ &nbsp;Add To Cart</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
